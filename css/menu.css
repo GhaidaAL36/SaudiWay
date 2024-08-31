@@ -1,0 +1,41 @@
+.barContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+
+.logo-text{
+  font-size: 1.9rem;
+  padding: 1rem 0;
+  color: #5b6a44;
+  cursor: pointer;
+  transition:0.3s ease;
+}
+
+.logo-text:hover{
+  color:#333d29 ;
+}
+
+.icons{
+  display: flex;
+  gap: 15px;
+}
+
+
+.icons a img {
+  max-height: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .barContainer {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .icons {
+      margin-top: 10px;
+  }
+}
