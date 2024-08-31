@@ -15,8 +15,7 @@
   color: aliceblue;
 }
 
-.background h1,
-h3 {
+.background h1, h3 {
   margin: 0.3rem;
 }
 
@@ -26,6 +25,7 @@ h3 {
   border: none;
   border-radius: 2rem;
   background-color: #a3b18a;
+  color: aliceblue;
   font-size: 1rem;
   cursor: pointer;
 }
@@ -36,61 +36,18 @@ h3 {
   color: #fff;
 }
 
-.blog-container {
-  display: flex;
-  justify-content: center;
-}
-
-.blog {
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: space-around; 
-  max-width: 100%; 
-  gap: 2rem; 
-}
-
-.blog-content {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 30%;
-  margin: 3.2rem 0;
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-  padding: 1rem;
-  box-sizing: border-box;
-}
-
-.blog-content img {
-  height: 300px;
-  object-fit: cover;
-}
-
-.blog-title {
-  padding: 2rem 0;
-}
-
-.blog-btn {
-  padding: 0.7rem 2rem;
-  margin: 0.5rem;
-  background-color: #606c38;
-  border: none;
-  border-radius: 2rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.blog-btn:hover{
-  background-color: #a3b18a;
-}
-
 @media (max-width: 768px) {
-  .blog {
-    flex-direction: column; 
-    align-items: center; 
+  .main-head {
+    height: auto;
+    padding: 5rem 1rem;
   }
 
-  .blog-content {
-    width: 80%; 
-    margin-bottom: 2rem; 
+  .background {
+    padding-top: 5rem;
+  }
+
+  .btn {
+    padding: 0.7rem 2rem;
+    font-size: 0.9rem;
   }
 }

@@ -1,44 +1,41 @@
-.footer-container{
+.footer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   background: #393a3a;
   color: #fff;
-  padding: 2rem 1.5rem; 
+  padding: 2rem 1.5rem;
   text-align: center;
 }
 
 .contact-box {
-  max-width: 800px; 
+  max-width: 800px;
 }
 
-.contact-box h4{
+.contact-box h4 {
   margin-bottom: 1rem;
   font-size: 22px;
   color: #718355;
 }
 
-.contact-box h5{
+.contact-box h5 {
   font-size: 18px;
   font-weight: 600;
   color: #999999;
   margin-bottom: 1rem;
 }
 
-
-.accounts{
+.accounts {
   display: flex;
   justify-content: center;
   margin-top: 1.8rem;
 }
 
-
 .accounts a {
-  margin: 0 0.5rem; 
+  margin: 0 0.5rem;
 }
 
-
-.accounts i{
+.accounts i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,13 +43,13 @@
   width: 40px;
   border: 2px solid #cfe1b9;
   border-radius: 50%;
-  background:transparent ;
+  background: transparent;
   color: #acbd97;
   font-size: 22px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
-.accounts i:hover{
+.accounts i:hover {
   background: #dde7c7;
   color: #373d20;
   transform: scale(1.1);
@@ -63,7 +60,6 @@
 }
 
 .footer-right h4 {
-  font-size: 14px; 
+  font-size: 14px;
   color: #999999;
 }
-
